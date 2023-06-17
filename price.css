@@ -1,0 +1,132 @@
+.pricelist {
+    background-color: #C0E4F0;
+   
+}
+
+.pricelist h3 {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.nail {
+    border: 3px solid white;
+    margin: 10px ;
+    
+}
+
+.nail h4 {
+    text-align: center;
+    padding-top: 5px;
+}
+.nail li {
+    padding-top: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 5px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.design {
+    border: 3px solid white;
+    margin: 10px ;
+}
+
+.design h4 {
+    text-align: center;
+    padding-top: 5px;
+}
+
+.design li {
+    padding-top: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 5px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+.extra {
+    border: 3px solid white;
+    margin: 10px ;
+    
+}
+
+.extra h4 {
+    text-align: center;
+    padding-top: 5px;
+}
+
+.extra li {
+    padding-top: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 5px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.cardpricing {
+    padding-bottom: 20px;
+}
+
+@media (min-width: 600px) {
+    .cardpricing {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        font-size: 14px;
+    }
+
+    .pricelist h3 {
+        font-size: 16px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .cardpricing {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        font-size: 16px;
+    }
+
+    .pricelist h3 {
+        font-size: 22px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        
+    }
+}
+
+
+@media (min-width: 1500px) {
+    .cardpricing {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        font-size: 22px;
+    }
+
+    .pricelist h3 {
+        font-size: 26px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        
+    }
+
+}
+
+
+@media (min-width: 1800px) {
+    .pricelist h3 {
+        font-size: 28px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        
+    }
+}

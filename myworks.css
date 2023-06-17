@@ -1,0 +1,182 @@
+.myworks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #C0E4F0;
+    }
+
+.myworks img {
+    padding-top: 15px;
+}
+
+.whyme {
+    padding-top: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 3px solid white;
+    
+    margin: 10px;
+}
+
+.whyme li {
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    list-style: none;
+}
+
+
+@media (min-width: 600px) {
+    .whyme {
+        padding-top: 8px;
+        display: flex;
+        flex-wrap: wrap;
+        border: 3px solid white;
+        border-radius: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .whyme li {
+        padding-top: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 20px;
+        font-size: 15px;
+        list-style: none;
+    }
+}
+
+@media (min-width: 800px) {
+    .whyme {
+        padding-top: 8px;
+        display: flex;
+        flex-wrap: wrap;
+        border: 3px solid white;
+        border-radius: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .whyme li {
+        padding-top: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 20px;
+        font-size: 18px;
+        list-style: none;
+    }
+}
+
+@media (min-width: 1000px) {
+    .myworks {
+        display: flex;
+        flex-direction: row;
+        background-color: #C0E4F0;
+        margin-right: 0;
+        }
+
+        .myworks img {
+            width: 50%;
+            padding-left: 60px;
+            
+        }
+
+        .whyme {
+            max-width: 40%;
+            margin: 0 15px 0 15px;
+        }
+
+        
+}
+
+@media (min-width: 1300px) {
+    .myworks {
+        display: flex;
+        flex-direction: row;
+        background-color: #C0E4F0;
+        
+        }
+
+        .myworks img {
+            width: 50%;
+            padding-left: 60px;
+            
+        }
+
+        .whyme {
+            max-width: 40%;
+            margin: 0 15px 0 15px;
+        }
+
+        .whyme li {
+            padding-top: 20px;
+            padding-left: 15px;
+            padding-right: 10px;
+            padding-bottom: 20px;
+            font-size: 20px;
+            list-style: none;
+        }
+}
+
+
+@media (min-width: 1500px) {
+    .myworks {
+        display: flex;
+        flex-direction: row;
+        background-color: #C0E4F0;
+        
+        }
+
+        .myworks img {
+            width: 50%;
+            padding-left: 100px;
+            
+        }
+
+        .whyme {
+            max-width: 40%;
+            margin: 0 15px 0 15px;
+        }
+
+        .whyme li {
+            padding-top: 20px;
+            padding-left: 15px;
+            padding-right: 10px;
+            padding-bottom: 20px;
+            font-size: 22px;
+            list-style: none;
+        }
+}
+
+
+@media (min-width: 1800px) {
+    .myworks {
+        display: flex;
+        flex-direction: row;
+        background-color: #C0E4F0;
+        
+        }
+
+        .myworks img {
+            width: 50%;
+            padding-left: 100px;
+            
+        }
+
+        .whyme {
+            
+            max-width: 40%;
+            margin: 0 15px 0 55px;
+        }
+
+        .whyme li {
+            padding-top: 70px;
+            padding-left: 30px;
+            padding-right: 30px;
+            padding-bottom: 40px;
+            font-size: 26px;
+            list-style: none;
+        }
+}

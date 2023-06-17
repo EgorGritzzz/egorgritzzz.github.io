@@ -1,0 +1,130 @@
+.consult {
+    background-color: white;
+    color: #C0E4F0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.question {
+    text-align: center;
+    margin: 10px;
+}
+
+.button .btnbtn {
+    text-decoration: none;
+}
+
+.button button {
+    padding: 10px;
+    background-color: #C0E4F0;
+    color: white;
+   border: none;
+   display: flex;
+  margin: 10px;
+ cursor: pointer;
+}
+
+@media (min-width:500px) {
+    .question {
+        text-align: center;
+        margin: 10px;
+        font-size: 16px;
+    }
+    
+    .button button {
+        padding: 10px;
+        background-color: #C0E4F0;
+        color: white;
+       border: none;
+       display: flex;
+      margin: 10px;
+      font-size: 16px;
+    }
+}
+
+@media (min-width:900px) {
+    
+    
+    .button button {
+        padding: 20px;
+        background-color: #C0E4F0;
+        color: white;
+       border: none;
+       display: flex;
+      margin: 10px;
+      font-size: 16px;
+    }
+}
+
+@media (min-width:1200px) {
+    .question {
+        text-align: center;
+        margin: 10px;
+        font-size: 18px;
+    }
+    
+    .button button {
+        padding: 30px;
+        background-color: #C0E4F0;
+        color: white;
+       border: none;
+       display: flex;
+      margin: 10px;
+      font-size: 22px;
+    }
+}
+
+@media (min-width:1500px) {
+    .question {
+        text-align: center;
+        margin: 10px;
+        font-size: 22px;
+    }
+    
+    .button button {
+        padding: 20px;
+        background-color: #C0E4F0;
+        color: white;
+       border: none;
+       display: flex;
+      margin: 10px;
+      font-size: 22px;
+    }
+}
+
+@media (min-width:2000px) {
+    .question {
+        text-align: center;
+        margin: 10px;
+        font-size: 26px;
+    }
+    
+    .button button {
+        padding: 20px;
+        background-color: #C0E4F0;
+        color: white;
+       border: none;
+       display: flex;
+      margin: 10px;
+      font-size: 26px;
+    }
+}
+
+@media (min-width:2300px) {
+    .question {
+        text-align: center;
+        margin: 10px;
+        font-size: 30px;
+    }
+    
+    .button button {
+        padding: 60px;
+        background-color: #C0E4F0;
+        color: white;
+       border: none;
+       display: flex;
+      margin: 10px;
+      font-size: 30px;
+      
+    }
+}

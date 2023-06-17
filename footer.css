@@ -1,0 +1,59 @@
+.footer {
+    background-color: white ;
+    color: black ;
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    border-top: 2px solid #C0E4F0;
+    font-family:  'Montserrat', sans-serif;;
+}
+
+
+.footmedia {
+    margin: 10px;
+    text-align: center;
+}
+
+.footmedia img {
+    padding-top: 20px ;
+    text-align: center;
+  
+}
+
+.footaddress {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.footaddress .mobilkafooter {
+    text-decoration: none;
+    color: black;
+}
+
+.metro{
+    font-size: 10px;
+}
+.phonefooter {
+    padding-top: 7px;
+}
+
+@media (min-width:600px) {
+    .footer {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+
+@media (min-width:1000px) {
+    .footer {
+        display: flex;
+        flex-direction: row;
+        font-size: 18px;
+    }
+
+    .metro {
+        font-size: 15px;
+    }
+}

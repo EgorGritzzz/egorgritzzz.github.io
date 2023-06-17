@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+   
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    color: white;
+    background-color: #C0E4F0;
+}
+
+.navbar {
+    background-color:#C0E4F0 ;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+ .info {
+    background-color: #C0E4F0;
+}
+
+.firstchild   {
+    text-decoration: none;
+    color: white;
+}
+
+.logo img {
+    animation-name: sizing;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes sizing {
+    0% {
+        transform: scale(.5s);
+    }
+    100% {
+        transform: scale(1.5);
+    }
+}
+
+
+
+
+.drop .navbtn {
+    margin-top: 30px;
+    font-size: 2em;
+    padding-inline: 10px;
+    padding-bottom: 3px;
+    border: none;
+    background-color: #C0E4F0;
+    color: white;
+    display: block;
+    cursor: pointer;
+
+}
+
+
+
+.drop:hover ul {
+    display: block;
+    position: absolute;
+    background-color: #C0E4F0;
+    opacity: 0.9;
+    margin-top: 5px;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 6px ;
+    text-decoration: underline;
+}
+
+.drop:hover ul li {
+    padding-top: 6px;
+}
+
+.drop .info {
+    display: none;
+    list-style: none;
+}
+
+
+  .contacts .mobila {
+    text-decoration: none;
+    color: white;
+  } 
+
+
+
+.navbar .contacts {
+    margin-top: 30px;
+   
+   
+}
+
+
+@media (min-width:750px) { 
+    .navbar {
+        font-size: 1.2em;
+    }
+}
+
+@media (min-width:1000px) { 
+
+    .navbar .logo {
+        font-size: 1.3em;
+    }
+
+    .logo img {
+        width: 150px;
+        
+    }
+
+    
+    .drop .navbtn {
+        display: none;
+    }
+
+    .drop .ul {
+        display: flex;
+        list-style: none;
+    }
+    
+    .contacts {
+       font-size: 1.3em;
+    }
+       
+    .drop:not(.nohover) ul {
+        display: flex;
+        position: relative;
+        background-color: #C0E4F0;
+        padding-top: 30px;
+       
+        text-decoration: none;
+    }
+    
+    .drop  li {
+        padding-left: 20px;
+        font-size: 1.3em;
+    }
+
+    .drop ul:hover li {
+        transform: scale(1.2);
+        cursor: pointer;
+        padding-right: 30px;
+        text-decoration: underline;
+        transition: .5s;
+    }
+}
+
+@media (min-width: 600px) {
+    .logo img {
+        width: 150px;
+       
+    }
+   
+}

@@ -1,0 +1,248 @@
+.yana {
+    background-color: #C0E4F0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.nailmaster p {
+   padding-top: 6px;
+}
+
+.nailmaster h1 {
+    font-family: 'Poiret One', cursive;
+}
+.yanaphoto {
+    border: 1px solid white;
+    margin-top: 15px;
+    height: 155px;
+    width: 155px;
+}
+
+.yanaphoto img {
+    padding-top: 5px;
+}
+
+.yanadescript h2 {
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Poiret One', cursive;
+}
+
+.yanadescript p {
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+
+@media (min-width: 450px) {
+    .yanaphoto img {
+           width: 170px;
+    }
+
+    .yanaphoto {
+        border: 1px solid white;
+        margin-top: 15px;
+        height: 175px;
+        width: 175px;
+    }
+}
+
+
+@media (min-width: 600px) {
+    .yanaphoto img {
+           width: 230px;
+    }
+
+    .yanaphoto {
+        border: 1px solid white;
+        margin-top: 15px;
+        height: 235px;
+        width: 235px;
+    }
+
+   .nailmaster h1 {
+    font-size: 35px;
+   }
+  
+   .yanadescript h2 {
+    font-size: 35px;
+   }
+
+    .yanadescript p {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 900px) {
+    .yanaphoto img {
+           width: 330px;
+    }
+
+    .yanaphoto {
+        border: 1px solid white;
+        margin-top: 15px;
+        height: 335px;
+        width: 335px;
+    }
+
+     .nailmaster h1 {
+        font-size: 35px;
+     }
+
+    .nailmaster p {
+        font-size: 16px;
+    }
+  
+     .yanadescript h2 {
+        font-size: 35px;
+     }
+
+    .yanadescript p {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .yanaphoto img {
+           width: 330px;
+    }
+
+    .yanaphoto {
+        border: 1px solid white;
+        margin-top: 15px;
+        height: 335px;
+        width: 335px;
+        margin-right: 50px;
+    }
+
+    .yanadescript p {
+        font-size: 14px;
+    }
+    .yana {
+        background-color: #C0E4F0;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+   .nailmaster {
+    margin-left: 6px;
+   }
+
+   
+}
+
+@media (min-width: 1200px) {
+    .yanaphoto img {
+           width: 380px;
+    }
+
+    .yanaphoto {
+        border: 1px solid white;
+        margin-top: 15px;
+        height: 385px;
+        width: 385px;
+        margin-right: 50px;
+    }
+
+    .yanadescript p {
+        font-size: 16px;
+    }
+
+    
+    .yana {
+        background-color: #C0E4F0;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+   .nailmaster {
+    margin-left: 6px;
+    font-size: 16px;
+   }
+
+
+}
+
+@media (min-width: 1200px) {
+    .yanaphoto img {
+           width: 450px;
+    }
+
+    .yanaphoto {
+        border: 1px solid white;
+        margin-top: 15px;
+        height: 455px;
+        width: 455px;
+        margin-right: 50px;
+    }
+     
+     .yanadescript h2 {
+        font-size: 35px;
+     }
+
+    .yanadescript p {
+        font-size: 18px;
+    }
+    .yana {
+        background-color: #C0E4F0;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+   .nailmaster {
+    margin-left: 6px;
+    font-size: 18px;
+   }
+
+   .nailmaster h1 {
+    font-size: 40px;
+   }
+}
+
+@media (min-width: 1600px) {
+    .nailmaster {
+        margin-left: 16px;
+        font-size: 18px;
+       }
+}
+
+
+@media (min-width: 2000px) {
+    .nailmaster {
+        margin-left: 16px;
+        font-size: 26px;
+       }
+
+       .nailmaster p {
+        font-size: 26px;
+       }
+
+       .yanadescript p {
+        font-size: 26px;
+    }
+    .yanadescript h2 {
+       font-size: 36px;
+    }
+}
+
+@media (min-width: 2300px) {
+    .yanaphoto img {
+        width: 650px;
+ }
+
+ .yanaphoto {
+     border: 1px solid white;
+     margin-top: 15px;
+     height: 655px;
+     width: 655px;
+     margin-right: 50px;
+ }
+}
